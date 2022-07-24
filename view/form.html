@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row g-3 pt-4">
+        {linha}
+                <div class="col-md-4">
+                  <div class="card text-center bg-light">
+                    <a href="#" class="position-absolute end-0 p-2 text-danger">
+                      <i class="bi-suit-heart" style="font-size: 24px; line-height: 24px;"></i>
+                    </a>
+                    <a>
+                      <img src="images/balm.png" class="card-img-top " style="width: 250px; height: 340px;"></img>
+                    </a>
+                    <div class="card-header">
+                      R${PRECO} 
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">{NOME}</h5>
+                      <p class="card-text truncar-3l">
+                        {DESCRICAO}
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn  mt-2 d-block text-light" style="background-color: #030303;">
+                        Adicionar ao Carrinho
+                      </a>
+                      <small class="text-success"> Em estoque</small>
+                    </div>
+                  </div>
+                </div>
+                {/linha}
+    </div>
