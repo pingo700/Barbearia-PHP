@@ -1,4 +1,4 @@
-
+# Mustache VS_01
 <div align="center">
    <img src="https://user-images.githubusercontent.com/66562175/180655848-578f6c83-743e-4214-a93f-b9609b354ced.png" alt="My cool logo"/>
 </div>
@@ -8,8 +8,7 @@
    <img width="180" src="https://user-images.githubusercontent.com/66562175/180655944-72e36b88-85b1-40f4-bcf9-978b8f49c193.png" />
 </div>
 <div align="center">
-   <p>
-   <p>
+   <p>Site simulando uma loja virtual para compras de produtos de barbearia,consome sweetalert para exibir erros vindos do banco,bootstrap para auxiliar a responsividade do site, e PHP no backend fazendo conexão PDO com o banco de dados e manipulação dos dados no geral.<p>
 </div>
 <div align="center">
    <img src="https://user-images.githubusercontent.com/66562175/180656073-7a627b93-554c-4047-91a3-745fe95a8caa.jpg" alt="My cool logo"/>
