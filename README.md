@@ -8,7 +8,7 @@
    <img width="180" src="https://user-images.githubusercontent.com/66562175/180655944-72e36b88-85b1-40f4-bcf9-978b8f49c193.png" />
 </div>
 <div align="center">
-   <h3><p>Site simulando uma loja virtual para compras de produtos de barbearia,consumindo sweetalert para exibir erros vindos do banco,bootstrap para auxiliar a responsividade do site, e PHP no backend fazendo conexão PDO com o banco de dados e manipulação dos dados no geral.<p></h3>
+   <h3><p>Site simulando uma loja virtual para compras de produtos de barbearia,consumindo sweetalert para exibir erros vindos do banco,bootstrap para auxiliar a responsividade do site,PHP no backend manipulando as paginas HTML via sistema de template e auxiliando o transporte de dados nas mesmas.<p></h3>
 </div>
 <div align="center">
    <img src="https://user-images.githubusercontent.com/66562175/180656073-7a627b93-554c-4047-91a3-745fe95a8caa.jpg" alt="My cool logo"/>
