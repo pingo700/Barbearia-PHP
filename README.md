@@ -1,7 +1,8 @@
-# Mustache VS_01
+
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/> 
 </p>
+# Mustache VS_01
 <div align="center">
    <img src="https://user-images.githubusercontent.com/66562175/180655848-578f6c83-743e-4214-a93f-b9609b354ced.png" alt="My cool logo"/>
 </div>
