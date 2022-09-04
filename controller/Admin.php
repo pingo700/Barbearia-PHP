@@ -18,21 +18,15 @@ class Admin
     try {
       Transaction::get();
       $crud = new Crud();
-      $retorno = $crud->select("usuario");
-      //$teste = $tabela->set("NOME", $retorno2["msg"]);
-      $retorno = $retorno["msg"];
-      //$retorno =  $retorno[0];
-      
-      //foreach($retorno as $row){
-        //$nome = $row["NOME"];
-        //$senha = $row["SENHA"];
-      //}
-      var_dump($retorno->NOME);
-      die();
-      if( $retorno == $_POST["password"] && $retorno == $_POST["email"]){
+      $retorno = $crud->select("usuario","*","NOME = '".$_POST["email"]."' AND SENHA = '".$_POST["password"]."'");
+      if(!$retorno["erro"]){
+       
         $tabela = new Template("view/admin.html");
-        $tabela->set("linha", $retorno["msg"]);
-        $retorno["msg"] = $tabela->saida();
+        var_dump($tabela);
+        echo "entrei";
+        exit();
+        //$tabela->set("linha", $retorno["msg"]);
+         //$retorno["msg"] = $tabela->saida();
       }else{
         $retorno["msg"] = "<script>Swal.fire(
           'Error 500 !',
